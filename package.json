@@ -1,0 +1,13 @@
+{
+  "name": "gyp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "clean": "rm -rf build",
+    "build": "node-gyp configure && node-gyp build"
+  },
+  "author": "likd-a",
+  "license": "ISC"
+}
